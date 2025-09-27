@@ -1,50 +1,62 @@
-# Welcome to your Expo app 👋
+🩺 IntelliMed – AI-Powered Medical Report Assistant
+🚀 Overview
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+IntelliMed is a React Native healthcare assistant app designed to:
 
-## Get started
+Accept medical reports as images and extract key health information.
 
-1. Install dependencies
+Provide a chatbot to answer general health queries.
 
-   ```bash
-   npm install
-   ```
+Focus on rural and semi-urban accessibility with multilingual support.
 
-2. Start the app
+⚠️ Disclaimer: This app is for informational purposes only and does not replace professional medical advice. Always consult a doctor for any medical concerns.
 
-   ```bash
-   npx expo start
-   ```
+✨ Features
 
-In the output, you'll find options to open the app in a
+📷 Upload and analyze medical report images
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+💬 AI chatbot for general healthcare queries
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+🔒 User authentication (login/signup)
 
-## Get a fresh project
+🌍 Multilingual support for wider accessibility
 
-When you're ready, run:
+🔐 Data privacy safeguards
 
-```bash
-npm run reset-project
-```
+🏗️ Tech Stack
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Frontend: React Native, Expo
 
-## Learn more
+Backend (planned): Node.js / Spring Boot
 
-To learn more about developing your project with Expo, look at the following resources:
+AI/ML: Google Gemini API
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Database (planned): Firebase / PostgreSQL
 
-## Join the community
+Version Control: Git + GitHub
 
-Join our community of developers creating universal apps.
+📦 Installation
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Clone the repo
+
+git clone https://github.com/audhee/IntelliMed.git
+cd IntelliMed
+
+
+Install dependencies
+
+npm install
+
+
+Run the app
+
+npx expo start
+
+🔑 Environment Setup
+
+Create a .env file in the root folder:
+
+GEMINI_API_KEY=your_api_key_here
+
+
+Then import it in your code where required.
